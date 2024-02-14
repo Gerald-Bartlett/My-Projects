@@ -246,8 +246,7 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  float: left;
-  margin-left: 240px;
+  margin-left: 400px;
   margin-top: 15px;
 }
 
