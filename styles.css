@@ -82,7 +82,7 @@ img {
   display: block;
   width: 100%;
   cursor: pointer;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 3px solid rgba(255, 255, 255, 0.2);
   background: transparent;
 }
 
@@ -131,7 +131,7 @@ img {
 
 .card_title {
   color: #ffffff;
-  font-size: 2rem;
+  font-size: 1.25rem;
   font-weight: 700;
   letter-spacing: 1px;
   text-transform: capitalize;
@@ -176,8 +176,46 @@ img {
   }
 }
 
+
+@media screen and (max-width: 400px) {
+.card_title {
+ 
+  font-size: .75rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+  color: #ffffff;
+  font-size: .75rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;    
+  font-weight: 400;
+}
+.btn {
+  color: #ffffff;
+  padding: 0.8rem;
+   font-size: .6rem;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 500;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 3px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+}
+h1 {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    width: 100%;
+}
+}
 /*Contact form*/
-/* Style inputs, select elements and textareas */
+/* Style inputs, select elements and text areas */
 input[type=text], select, textarea{
   width: 100%;
   padding: 12px;
@@ -195,7 +233,7 @@ label {
 
 /* Style the submit button */
 input[type=submit] {
-  background-color: #04AA6D;
+  background-color: chocolate ;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -207,7 +245,7 @@ input[type=submit] {
 /* Style the container */
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #FFEBCD;
   padding: 20px;
 }
 
