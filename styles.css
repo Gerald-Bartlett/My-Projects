@@ -246,7 +246,9 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  float: right;
+  float: left;
+  margin-left: 240px;
+  margin-top: 15px;
 }
 
 /* Style the container */
@@ -276,9 +278,7 @@ input[type=submit] {
   display: table;
   clear: both;
 }
-.row{
-  align-self: left;
-}
+
 
 .textarea{
   height:200px
