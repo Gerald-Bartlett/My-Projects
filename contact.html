@@ -3,15 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="styles.css">
   <title>Contact</title>
 </head>
 <body>
+  <div class="topnav" id="myTopnav">
+    <a href="index.html" class="">Home</a>
+    <a href="eva.html">Cabinets</a>
+    <a href="bench.html">Projects</a>
+    <a href="contact.html">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()" aria-label="javascript">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
   <div class="container">
     <form action="action_page.php">
       <div class="row">
         <div class="col-25">
-          <label for="fname">First Name</label>
+          <label for="fname" id="firstname">First Name</label>
         </div>
         <div class="col-75">
           <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -23,17 +32,20 @@
         </div>
         <div class="col-75">
           <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-        </div>
+        </div>       
       </div>
+      
       <div class="row">
         <div class="col-25">
-          <label for="country">Country</label>
+          <label for="project">Country</label>
         </div>
         <div class="col-75">
-          <select id="country" name="country">
-            <option value="australia">Australia</option>
-            <option value="canada">Canada</option>
-            <option value="usa">USA</option>
+          <select id="project" name="project">
+            <option value="cabinets">Cabinets Build</option>
+            <option value="bench-swing">Benches or Swing Build</option>
+            <option value="barn">Baby Barn Build</option>
+            <option value="misc">Misc Project Build</option>
+            <option value="other">Other</option>
           </select>
         </div>
       </div>
@@ -42,7 +54,7 @@
           <label for="subject">Subject</label>
         </div>
         <div class="col-75">
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          <textarea id="subject" name="subject" placeholder="Write your question here .." style="height:200px"></textarea>
         </div>
       </div>
       <div class="row">

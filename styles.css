@@ -84,6 +84,8 @@ img {
   cursor: pointer;
   border: 3px solid rgba(255, 255, 255, 0.2);
   background: transparent;
+   
+    
 }
 
 .btn:hover {
@@ -96,11 +98,14 @@ img {
   list-style: none;
   margin: 0;
   padding: 0;
+ 
 }
 
 .cards_item {
   display: flex;
   padding: 1rem;
+  margin-bottom: 5px;
+  
 }
 
 @media (min-width: 40rem) {
@@ -127,6 +132,8 @@ img {
 .card_content {
   padding: 1rem;
   background: linear-gradient(to bottom left, chocolate  40%, #FF7F50 100%);
+  width: 100%; /*fills card content area 100% with color*/
+  height: 100%; /*fills card content area 100% with color*/
 }
 
 .card_title {
@@ -197,7 +204,7 @@ img {
 .btn {
   color: #ffffff;
   padding: 0.8rem;
-   font-size: .6rem;
+  font-size: .6rem;
   text-transform: uppercase;
   border-radius: 4px;
   font-weight: 500;
@@ -252,14 +259,14 @@ input[type=submit] {
 /* Floating column for labels: 25% width */
 .col-25 {
   float: left;
-  width: 25%;
+  width: 15%;
   margin-top: 6px;
 }
 
 /* Floating column for inputs: 75% width */
 .col-75 {
   float: left;
-  width: 75%;
+  width: 25%;
   margin-top: 6px;
 }
 
@@ -269,7 +276,13 @@ input[type=submit] {
   display: table;
   clear: both;
 }
+.row{
+  align-self: left;
+}
 
+.textarea{
+  height:200px
+}
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .col-25, .col-75, input[type=submit] {
