@@ -1,6 +1,6 @@
-/* Add a black background color to the top navigation */
+/* Add a chocolate background color to the top navigation */
 .topnav {
-  background-color: #333;
+  background-color: #D2691E ;
   overflow: hidden;
 }
 
@@ -8,11 +8,11 @@
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #ffffff;
   text-align: center;
-  padding: 14px 16px;
+  padding: 20px 20px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 19px;
 }
  
 a{
@@ -20,15 +20,11 @@ a{
 }
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #00FFFF;
+  background-color: #FFE4C4;
   color: black;
 }
 
-/* Add an active class to highlight the current page */
-/* .topnav a.active {
-  background-color: #00FFFF;
-  color: white;
-} */
+
 
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
@@ -79,10 +75,10 @@ img {
 .btn {
   color: #ffffff;
   padding: 0.8rem;
-  font-size: 14px;
+  font-size: 15px;
   text-transform: uppercase;
   border-radius: 4px;
-  font-weight: 900;
+  font-weight: 500;
   display: block;
   width: 100%;
   cursor: pointer;
@@ -130,12 +126,12 @@ img {
 
 .card_content {
   padding: 1rem;
-  background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%);
+  background: linear-gradient(to bottom left, chocolate  40%, #FF7F50 100%);
 }
 
 .card_title {
   color: #ffffff;
-  font-size: 1.1rem;
+  font-size: 2rem;
   font-weight: 700;
   letter-spacing: 1px;
   text-transform: capitalize;
@@ -144,9 +140,9 @@ img {
 
 .card_text {
   color: #ffffff;
-  font-size: 0.875rem;
+  font-size: 1.2rem;
   line-height: 1.5;
-  margin-bottom: 1.25rem;    
+  margin-bottom: 1.5rem;    
   font-weight: 400;
 }
 .made_by{
