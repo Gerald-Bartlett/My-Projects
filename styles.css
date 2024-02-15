@@ -1,3 +1,14 @@
+/*nav logo */
+.logo {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 130px;
+  align-items: center;
+  right: 225px;
+}
+
+
 /* Add a chocolate background color to the top navigation */
 .topnav {
   background-color: #D2691E ;
