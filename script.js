@@ -7,6 +7,14 @@ function myFunction() {
     x.className = "topnav";
   }
 }
+
+function setAction(form) {
+  form.action = "Request-Sent";
+  alert(form.action);
+  return false;
+}
+
+
 function validate() { 
     let name = 
         document.getElementById("firstname").value; 
