@@ -268,19 +268,22 @@ h1 {
 }
 /*Contact form*/
 /* Style inputs, select elements and text areas */
+
 input[type=text], select, textarea{
-  width: 100%;
+  width: 50%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
   resize: vertical;
+  margin-left: 10%;
 }
 
 /* Style the label to display next to the inputs */
 label {
-  padding: 12px 12px 12px 0;
-  display: inline-block;
+  display: inline;
+  /* padding: 10px 10px 10px 0px;  */
+  margin-left: 100px;
 }
 
 /* Style the submit button */
@@ -291,7 +294,7 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  margin-left: 100%;
+  margin-left: 30%;
   margin-top: 15px;
 }
 
@@ -312,7 +315,7 @@ input[type=submit] {
 /* Floating column for inputs: 75% width */
 .col-75 {
   float: left;
-  width: 35%;
+  width: 100%;
   margin-top: 6px;
 }
 
@@ -329,43 +332,30 @@ input[type=submit] {
   height:200px
   
 }
-/* 
-@media screen and (max-width: 1200px) {
+
+
  
-  .submitBtn, input[type=submit]{
-  margin-left: 400px;
-  margin-top: 15px;
-  }
-} */
+
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .col-25, .col-75  {
     width: 100%;
     margin-top: 0;
   }
-  .submitBtn, input[type=submit]{
-  margin-left: 40%;
-  margin-top: 15px;
-  }
-  .map{
-border-radius: 5px;
-background-color: #FFEBCD;
-top: 10px;
-margin-left: 0;
-width: 45%;
-height: 45%;
+ 
 
+.label {
+  display: inline;
+  padding: 10px 10px 10px 0px; 
+  margin-left: 100px;
 }
 }
-
-
-
-.map {
-border-radius: 5px;
-background-color: #FFEBCD;
-top: 10px;
-margin-left: 0;
-width: 45%;
-height: 45%;
-
+ @media screen and  (min-width: 601px) and (max-width: 1231px){
+  .label {
+  display: inline;
+  /* padding: 10px 10px 10px 0px;  */
+  margin-left: 100px;
 }
+ }
+
+
