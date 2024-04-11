@@ -35,11 +35,16 @@ a{
 
 /*nav logo */
 
-.logo-right {
+.logo-left {
   float: left;
   position: relative;
-  margin-top: 0 ;
+  margin-top: 50px ;
   
+}
+.logo-right {
+  float: right; 
+  margin-top: 5px0 ;
+
 }
 
 
@@ -79,6 +84,8 @@ body {
     text-align: center;
     color: chocolate;
     font-style: italic;
+    margin-left: 100px;
+    margin-right: 220px;
 }
 
 h1 {
@@ -189,7 +196,12 @@ img {
     color: chocolate;
     font-style: italic;
 }
-
+.logo-right {
+  display: none
+}
+.logo-left {
+  display: none
+}
 }
 
 /* When the screen is less than 600 pixels wide, hide all links. Show the link that contains should open and close the topnav (.icon) */
@@ -201,6 +213,9 @@ img {
   }
 
 .logo-right {
+  display: none
+}
+.logo-left {
   display: none
 }
 .company_name {
